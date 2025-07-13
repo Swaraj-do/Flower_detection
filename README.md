@@ -5,39 +5,39 @@ Steps Followed:
 
 1.Dataset Collection:
 
-Downloaded a publicly available flower image dataset from Kaggle.
+>>>Downloaded a publicly available flower image dataset from Kaggle.
 
-The dataset included labeled images of flowers like sunflower, rose, and daisy.
+>>>The dataset included labeled images of flowers like sunflower, rose, and daisy.
 
 2.Preprocessing Pipeline (Local Machine using Spyder):
 
-Created a consolidated.py script for organizing and preprocessing the dataset.
+>>>Created a consolidated.py script for organizing and preprocessing the dataset.
 
-Built a folder structure:
+>>>Built a folder structure:
 
-images/: Original downloaded images.
+   >>>images/: Original downloaded images.
 
-clean_data/: Processed data outputs.
+   >>>clean_data/: Processed data outputs.
 
-The consolidated.py script:
+   >>>The consolidated.py script:
 
-Read and resized all images.
+   >>>Read and resized all images.
 
-Converted image-label pairs into pickle files:
+>>>>Converted image-label pairs into pickle files:
 
-images.p – Pickled NumPy array of image data.
+  >>>images.p – Pickled NumPy array of image data.
 
-labels.p – Corresponding class labels.
+  >>>labels.p – Corresponding class labels.
 
 3.Training the Model (on Google Colab):
 
-Uploaded images.p and labels.p to Google Colab for training.
+  >>>Uploaded images.p and labels.p to Google Colab for training.
 
-Built and trained a CNN model using TensorFlow/Keras to classify the flower types.
+  >>>Built and trained a CNN model using TensorFlow/Keras to classify the flower types.
 
-Evaluated model performance using accuracy and loss metrics.
+  >>>Evaluated model performance using accuracy and loss metrics.
 
-Tools & Libraries Used:
+### Tools & Libraries Used:
 
 *Python, OpenCV, NumPy, Pandas
 
